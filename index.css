@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 528215 */
+    src: url('http://at.alicdn.com/t/font_528215_eqm154vdmr7r2j4i.eot');
+    src: url('http://at.alicdn.com/t/font_528215_eqm154vdmr7r2j4i.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_528215_eqm154vdmr7r2j4i.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_528215_eqm154vdmr7r2j4i.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_528215_eqm154vdmr7r2j4i.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+i{
+    font-style: normal;
+}
+a,input,img{
+    display: block;
+    text-decoration: none;
+}
+body{
+    background-color: #F2F2F2;
+}
+.ng_toolbar{
+    width: 100%;
+    height: 36px;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+}
+.ng_toolbar_box{
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+}
+.ng_toolbar_left{
+    width: 336px;
+    height: 100%;
+    float: left;
+}
+.ng_toolbar_left span{
+    color: #666;
+    font-family: "Microsoft yahei" !important;
+    font-size: 12px;
+    line-height: 35px;
+}
+.ng_toolbar_a1,.ng_toolbar_a2,.ng_toolbar_a3,.ng_toolbar_a4{
+    float: left;
+    padding-right: 36px;
+}
+
+.ng_toolbar_right a{
+    color: #666;
+    font-family: "Microsoft yahei" !important;
+    font-size: 12px;
+    line-height: 35px;
+    padding-right: 18px;
+    float: right;
+}
+.ng_toolbar_right a:hover{
+    color: red;
+}
+.bg_container{
+    width: 1190px;
+    height: 110px;
+    margin: 0 auto;
+}
+.logo{
+    width: 190px;
+    height: 90px;
+    background-image: url("img/logo.png");
+    background-size: 190px 90px;
+    background-position: center;
+    float: left;
+}
+.search{
+    width: 600px;
+    height: 100px;
+    margin-left: 110px;
+    float: left;
+}
+.search_btn{
+    width: 120px;
+    height: 40px;
+    background-color: #FF9900;
+    font-family: 'MicroSoft YaHei';
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFF;;
+    margin-top: 30px;
+    float: right;
+}
+.search_box{
+    width: 420px;
+    height: 40px;
+    background-color: red;
+    padding: 0 0 0 28px;
+    border: 2px solid #FA0;
+    border-right: none;
+    box-sizing: border-box;
+    margin-top: 30px;
+    float: right;
+}
+.search-word{
+    width: 390px;
+    height: 36px;
+    border: none;
+}
+.head_active{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #EEE;
+    box-sizing: border-box;
+    background-color: rosybrown;
+    background-image: url("img/weixin.png");
+    background-size: 74px;
+    background-position: center;
+    margin-top: 10px;
+    float: right;
+}
+/*导航栏结束*/
+.container{
+    width: 1190px;
+    height: 38px;
+    margin: 0 auto;
+}
+.container_left{
+    width: 190px;
+    height: 38px;
+    background-color: #FF9900;
+    position: relative;
+    float: left;
+}
+.container_left i{
+    width: 12px;
+    height: 12px;
+    background-image: url(img/index.png);
+}
+.container_left span{
+    font-size: 12px;
+    color: #fff;
+    line-height: 38px;
+}
+
+.container_nav{
+    width: 720px;
+    height: 38px;
+    margin-left: 23px;
+    float: left;
+}
+.container_nav a{
+    font-size: 14px;
+    color: #000;
+    padding-right: 26px;
+    float: left;
+    line-height: 38px;
+}
+.container_nav a:last-child{
+    padding-right: 0;
+}
+.container_right{
+    width: 170px;
+    height: 38px;
+    background: url("img/150271436155347363.png") ;
+    float: right;
+}
+/*导航栏开始*/
+/*banner开始*/
+.banner{
+    width: 1190px;
+    height: 440px;
+    background-color: #F2F2F2;
+    margin: 0 auto;
+    position: relative;
+}
+.banner_left{
+    width: 545px;
+    height: 440px;
+    background: url("img/151435513427967861.png") no-repeat;
+    position: absolute;
+    left: -355px;
+    top: 0;
+    z-index: -10;
+}
+.banner_right{
+    width: 545px;
+    height: 440px;
+    background: url("img/151435514528832333.png") no-repeat;
+    position: absolute;
+    right: -376px;
+    top: 0;
+    z-index: -10;
+}
+aside{
+    width: 190px;
+    height: 440px;
+    background: #252221;
+    position: relative;
+}
+aside ul li{
+    width: 190px;
+    height: 31.5px;
+    background: #c0a16b;
+    padding: 0 10px 0 8px;
+    line-height: 31.5px;
+}
+aside ul li i{
+    color: #FEA903;
+    font-size: 12px;
+    float: left;
+}
+aside ul li a{
+    font-size: 12px;
+    color: #fff;
+    background: #c0a16b;
+    float: left;
+}
+.banner_img {
+    width: 830px;
+    height: 440px;
+    background-color: darkgoldenrod;
+    position: relative;
+    left: 190px;
+    top: -440px;
+
+    /*cursor: pointer;*/
+}
+.banner_img img {
+    width: 830px;
+    height: 440px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.banner_tg{
+    width: 150px;
+    height: 430px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 10;
+}
+.banner_tg a{
+    width: 150px;
+    height: 213px;
+    background: #F3E5E6;
+    overflow: hidden;
+}
+.banner_tg a p{
+    width: 112px;
+    height: 22px;
+    font-size: 13px;
+    color: #000;
+    text-align: left;
+    line-height: 22px;
+    margin: 17px auto 0;
+}
+.banner_tg a p:last-of-type{
+    width: 112px;
+    height: 18px;
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    line-height: 18px;
+    margin: 0 auto;
+}
+.banner_tg a img{
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin-top: 67px;
+    margin-left: 5px;
+}
+.banner_tg a:last-child{
+    margin-top: 5px;
+}
+.banner_tg .tu2 img{
+    display: block;
+    width: 140px;
+    height: 140px;
+    margin-top: 275px;
+    margin-left: 5px;
+}
+.first_right{
+    width: 170px;
+    height: 430px;
+    background-color: #00A8EF;
+    position: absolute;
+    right: -170px;
+    top: 5px;
+
+}
+/*banner结束*/
+/*猜你喜欢开始*/
+.love{
+    width: 1190px;
+    height: auto;
+    margin: 20px auto 0;
+}
+.love .title{
+    width: 1190px;
+    height: 22px;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+.love .title .border{
+    float: left;
+    width: 3px;
+    height: 20px;
+    background: #fe9901;
+}
+.love .title h5{
+    width: 72px;
+    height: 20px;
+    font-size: 18px;
+    margin-left: 12px;
+    float: left;
+}
+.love .content{
+    width: 1190px;
+    height: 340px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+}
+
+.love .content a{
+    width: 237px;
+    height: 340px;
+    border-right: 1px solid #eee;
+    box-sizing: border-box;
+    float: left;
+}
+.love .content a:last-of-type{
+    border-right: 0;
+}
+.love .content a img{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto 0;
+    transition: all 1s;
+}
+.love .content a:hover img{
+    transform: scale(1.05,1.05);
+}
+.love .content a p{
+    width: 200px;
+    height: 40px;
+    font-size: 12px;
+    color: #333;
+    margin: 15px auto 5px;
+}
+.love .content a:hover p{
+    color: #FF6600;
+}
+.love .content a span{
+    width: 217px;
+    height: 20px;
+    font-size: 16px;
+    color: #F60;
+    margin-left: 20px;
+}
+.love .content a  i{
+    font-size: 10px;
+}
+/*猜你喜欢结束*/
+/*尾部开始*/
+.footer{
+    width: 1190px;
+    height: 1000px;
+    /*background-color: #00aadc;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+.end{
+    width: 112px;
+    height: 22px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    color: #CCC;
+    margin: 15px auto;
+    position: relative;
+}
+.line_left{
+    width: 97px;
+    height: 1px;
+    background: #CCC;
+    position: absolute;
+    left: -97px;
+    top: 11px;
+}
+.line_right{
+    width: 97px;
+    height: 1px;
+    background: #CCC;
+    position: absolute;
+    right: -97px;
+    top: 11px;
+}
+.ng_ser_box{
+    width: 100%;
+    height: 279px;
+    border-top: 1px solid #e7e7e7;
+}
+.ng_promise{
+    width: 1250px;
+    height: 73px;
+    border-bottom: 1px solid #eaeaea;
+    padding: 12px 0;
+}
+.ng_promise dl{
+    width: 250px;
+    height: 48px;
+    color: #333;
+    float: left;
+}
+.ng_promise dl dt a img{
+    width: 48px;
+    height: 48px;
+    color: #333;
+    float: left;
+}
+.ng_promise dl dd a{
+    color: #333;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+    float: left;
+}
+.ng_promise dl dd p{
+    width: 180px;
+    height: 24px;
+    color: #545454;;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+    float: left;
+}
+/*尾部结束*/
